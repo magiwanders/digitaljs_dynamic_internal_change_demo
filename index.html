@@ -9,12 +9,13 @@
   <!-- <script src="./simple_hardware_editor_and_simulator/tester.js"></script> -->
   <script src="simple_hardware_editor_and_simulator/sheas_functions.js"></script>
   <script src="simple_hardware_editor_and_simulator/sheas_builders.js"></script>
+    <script>var exports = {};</script>
+    <script src="3vl.js"></script>
 </head>
-
-
 
 <body>
   <button id = 'toggle' onclick="toggle()">Toggle Internals</button> <br>
-  Currently holding <p id="which">SLOW</p> implementation.
+  Currently holding <p style="display: inline-block" id="which">SLOW</p> implementation. 
+  <p id="explanation">This is a first principles implementation using universal gates. The element can be inspected down to Nand gates.</p>
   <div id="sheas_container"></div>
 </body>
